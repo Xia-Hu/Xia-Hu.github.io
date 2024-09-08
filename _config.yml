@@ -1,0 +1,89 @@
+# Site settings
+title: Xia Hu's Homepage
+email: amber.hx01@gmail.com
+description: Xia Hu's Homepage
+baseurl: ""
+url: ""
+
+# Google analytics ID: Uncomment and your own, if you like
+# google_analytics: XX
+# google_analytics_4: XXX
+# google_tag_manager: XXX
+
+# Footer info
+affiliation: >
+  Xia Hu<br/>
+  Software Engineer<br/>
+  Google DeepMind
+
+
+#location: >
+#  first line<br/>
+#  second line<br/>
+#  third line
+
+contact: >
+  Email me: <a href="mailto:amber.hx01@gmail.com" target="_blank"><i class="fa fa-envelope fa-1x"></i>amber.hx01@gmail.com</a> <br/>
+  Site template: <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i>Site template!</a>
+
+# Pages shown in navbar
+nav_pages:
+  - name: sdm21_tutorial
+
+include:
+  - .htaccess
+  - _pages
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+plugins: ["jekyll/scholar"]
+
+scholar:
+  last_name: Hu
+  first_name: [Xia]
+
+  style: citesty
+  locale: en
+
+  source: /assets/
+  bibliography: ref.bib
+  bibliography_template: bibtemplate
+  bibliography_list_tag: "ul"
+  bibliography_item_tag: "li"
+  sort_by: year, month
+  order: descending
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - update_boostrap.sh
+  - switch_theme.sh
+  - tags
+  - Rakefile

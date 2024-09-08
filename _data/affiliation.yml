@@ -1,0 +1,14 @@
+- image: gdm.png
+  url: https://deepmind.google/
+- image: goog.jpg
+  url: https://www.google.com/
+- image: sfu.png
+  url: https://www.sfu.ca/
+- image: msra.png
+  url: https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/
+- image: sogou.png
+  url: https://www.sogou.com/
+- image: baidu.png
+  url: https://www.baidu.com/
+- image: ustc.png
+  url: https://en.ustc.edu.cn/

@@ -1,0 +1,17 @@
+- name: Xia Hu
+  photo: me.jpg
+  info: Software Engineer @ Google DeepMind
+  email: amber.hx01@gmail.com
+  researchgate: https://www.researchgate.net/
+  scholar: https://scholar.google.com/citations?user=1PT3EQoAAAAJ
+  linkedin: https://linkedin.com/in/
+  cv: cv/cv.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+        "(2019) Ph.D. Computing Science, Simon Fraser University",
+        "(2013) B.S. Computer Science, University of Science and Technology of China",
+    ]
+
+  educationshort:
+    ["(2019) Ph.D. CMPT, SFU", "(2013) B.S. CS, USTC"]
