@@ -14,7 +14,7 @@ I am currently a software engineer and researcher at Google DeepMind. I live in 
 Prior to joining Google, I obtained my Ph.D. in Computing Science from [Simon Fraser University](https://www.sfu.ca/)
 in 2021, advised by Dr. [Jian Pei](https://sites.google.com/view/jpei/jian-peis-homepage). During my doctoral studies, 
 I also 
-closely worked and collaborated with Dr. [Oliver Schultte](https://www.cs.sfu.ca/~oschulte/). Before 
+closely worked and collaborated with Dr. [Oliver Schulte](https://www.cs.sfu.ca/~oschulte/). Before 
 pursuing my Ph.D., I worked as a software engineer at Sogou and Baidu. I obtained my B.E. degree in Computer Science 
 from the [University of Science and Technology of China](https://www.ustc.edu.cn/) in 2013.
 
